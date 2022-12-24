@@ -10,8 +10,19 @@ A flutter package to assist with colours, theming and using common components.
 ## Usage
 
 ```dart
-var colorPrimary = ColorSet(Color(0xFFFF3030))
+// Using colours
+var colorPrimary = ColorSet(Color(0xFFFF3030));
 var colorOnPrimary = ColorSet.adaptive(light: Colors.black, dark: Colors.white);
+
+// Using theme
+var myTheme = TaiTheme(ThemeData(...)); // use your custom theme here
+var adaptiveTheme = TaiTheme.adaptive(light: ..., dark: ...); // also declare different themes
+myTheme.setTextTheme(TextTheme(...)); // set your custom text theme. There is a default text theme in Tai
+
+// you can then use this theme in your app:
+myTheme.data //,
+myTheme.light //,
+myTheme.dark
 ```
 
 ## Additional information

@@ -1,6 +1,6 @@
 name: tai_themer
 description: A flutter package to assist with colours, theming and using common components.
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/padamchopra/tai-themer
 
 environment:
@@ -10,6 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  google_fonts: ^3.0.1
 
 dev_dependencies:
   flutter_test:
