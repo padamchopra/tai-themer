@@ -11,7 +11,7 @@ class ColorSet {
       : _light = color,
         _dark = color;
 
-  ColorSet.themed({required Color light, required Color dark})
+  ColorSet.adaptive({required Color light, required Color dark})
       : _light = light,
         _dark = dark;
 }
