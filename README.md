@@ -9,9 +9,6 @@ A flutter package to assist with colours, theming and using common components.
 
 ## Usage
 
-<!-- TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. -->
-
 ```dart
 var colorPrimary = ColorSet(Color(0xFFFF3030))
 var colorOnPrimary = ColorSet.adaptive(light: Colors.black, dark: Colors.white);
